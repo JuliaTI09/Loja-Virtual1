@@ -1,0 +1,120 @@
+
+*{  box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    }
+.propaganda{
+    font-size: 18px;
+    margin: 20px;
+    text-align: justify;
+}
+.corpo-texto{
+    margin: 3% 20%;
+    text-align: justify;
+    height:auto; 
+}
+.vender{
+     font-size: 21px;
+    text-align: center; 
+    width: 70%;
+    border-color: rgb(248, 54, 54);
+    color: rgb(5, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vender1{
+     font-size: 21px;
+    text-align: center; 
+    width: 70%;
+    border-color: rgb(22, 43, 226);
+    color: rgb(26, 26, 31);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vender2{
+     font-size: 21px;
+    text-align: center; 
+    width: 70%;
+    border-color: rgb(52, 182, 95);
+    color: rgb(5, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nome-pedra{
+    font-size: 25px;
+    font-weight: bold;
+   text-align: center;
+   font-family: fantasy;
+    color: #da9438;
+}
+.venda{
+    display: block;
+    margin-left: 40%;
+}
+.titulos-destaque{
+    text-align: center;
+    color: #eeb872;
+    font-size: 30px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+.produtos{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.propaganda{ font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;}
+.centralizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.propaganda{ font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;}
+/*formulario*/
+.tabela{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+form h2{
+    text-align: center;
+    color: #333;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #ccfff3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

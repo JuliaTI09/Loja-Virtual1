@@ -1,34 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
 .b{
    border-radius:10%;
    padding: 10px 10px;
    font-size: 20px;
-   color: #eeb872;;
+   color: #eeb872;
    border: solid;
    font-family:serif;
 }
-.logo{align-items: center;
-    justify-content: center;
+.tudo{background-color:  #ccfff3;
+ 
 }
-.tudo{background-color: #ccfff3;}
-.titu{
+
+.titulo-cabecalho{
     display: flex;
     align-items:left;
     justify-content: left;
     position: fixed;
-    top:10%;
-    left:15%;
+    top:5%;
+    left:33%;
     width: 100%;
     color:#eeb872;
-
+    font-size: 60px;
 }
 .link{
     position: fixed;
     top:20%;
-    left:40%;
+    left:35%;
     width:100%;
     display: flex;
     align-items:center;
-    
-
+}
+.logo{
+    display: flex;
+    align-items:left;
+    justify-content: left;
+    position: fixed;
+    top:-2%;
+    left:10%;
+  
+}
+.banr2{
+  top: 0;
+  left: 0;
+ width: 100%;
+  display: block;
  
+}.banr{
+    top:10%;
+    left:5%;
+    float: left;
+    
 }
